@@ -1,0 +1,138 @@
+#navigation{
+    background: #000;
+    .nav-item{
+      padding-left: 10px;
+      .nav-link{
+        text-transform: uppercase;
+      }
+    }
+}
+.carousel-item{
+  height: 520px;
+}
+.carousel-img-1{
+  background: url('../img/image1.png');
+  background-size: cover;
+}
+.carousel-img-2{
+  background: url('../img/image2.png');
+  background-size: cover;
+}
+.carousel-img-3{
+  background: url('../img/image3.png');
+  background-size: cover;
+}
+#homeicon{
+  background: #c1bbbb;
+  .fa{
+    font-size: 50px;
+  }
+}
+
+#get-started{
+  background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('../img/pc2.png');
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center;
+  background-attachment:fixed;
+  min-height: 250px;
+
+}
+#video-section{
+  background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('../img/people.png');
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center;
+  background-attachment:fixed;
+  min-height: 250px;
+  .fa{
+    font-size: 50px;
+    color: red;
+    padding: 15px;
+  }
+}
+#photos{
+  img{
+    min-height: 250px;
+    margin-bottom: 30px;
+  }
+}
+#copyright{
+  background: #000;
+}
+#aboutpage{
+  background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../img/ab.png');
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center;
+  background-attachment:fixed;
+  min-height: 350px;
+}
+#info{
+  img{
+    width: 350px;
+    height: 350px;
+  }
+}
+#icon-box{
+  h3{
+    margin: 15px 0px;
+  }
+  .fa{
+    font-size: 50px;
+  }
+}
+#testimonial{
+ .slick-prev::before{
+   color: #000;
+ }
+ .slick-next:before{
+   color: #000;
+ }
+}
+#services-header{
+  background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../img/image2.png');
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center;
+  background-attachment:fixed;
+  min-height: 350px;
+}
+#blog-header{
+  background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../img/image2.png');
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center;
+  background-attachment:fixed;
+  min-height: 350px;
+}
+#contact-sec{
+  .row{
+    height: 600px;
+  }
+}
+
+
+@media (max-width: 700px) {
+  #photos{
+    img{
+      margin-bottom:0px;
+    }
+  }
+
+  #myCarousel{
+    h2{
+      font-size: 35px;
+      font-weight: bold;
+    }
+  }
+}
+@media (max-width: 300px){
+  #myCarousel{
+    .carousel-item{
+    }
+    h2{
+      font-size:20px;
+    }
+  }
+}
